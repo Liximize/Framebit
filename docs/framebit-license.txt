@@ -1,0 +1,75 @@
+FRAMEBIT FREE-USE LICENSE — RIGHTS RESERVED
+Copyright (c) 2026 Liximize. All rights reserved, except as expressly granted below.
+
+1. Scope
+"Framebit" means the Framebit application and its original application code,
+documentation, artwork and branding, only to the extent rights in those materials
+are held by Liximize. Third-party components are addressed separately in section 5.
+This is a proprietary free-use license, not an open-source license.
+
+2. Free use
+You may download, install and run official Framebit builds free of charge for
+personal, educational and commercial activities. You may keep reasonable backup
+copies for your own use. No payment is required for these permissions.
+
+You may create, edit, publish, share and monetize your recordings and screenshots.
+This license does not give Liximize ownership of your content. You remain
+responsible for permissions relating to games, music, other people and any other
+content you record. You may show Framebit's interface in tutorials, reviews and
+videos without implying endorsement or ownership of the Framebit brand.
+
+3. Rights not granted
+Except with prior written permission from Liximize, as permitted by applicable
+law, or under a third-party license that applies to the material concerned, you
+may not:
+- sell, rent, sublicense, charge for access to, or commercially redistribute
+  Framebit itself, including as part of a paid bundle;
+- redistribute Framebit installers or application binaries, whether modified
+  or unmodified; share the official release link instead;
+- copy, publish, modify or reuse Framebit's proprietary application source or
+  original assets to create or distribute another application;
+- rebrand Framebit, remove its ownership notices, or represent it as your own;
+- use Framebit's name or logo to imply sponsorship or endorsement.
+
+No license to Framebit's proprietary source code or original assets is granted
+by their accidental disclosure, public availability or use of AI-assisted tools.
+Nothing here asserts ownership of material or rights that Liximize does not hold.
+
+4. Public repository
+You may link to the official project and downloads. Nothing in this license
+limits permissions that must be granted under the hosting platform's applicable
+terms for materials intentionally published there. A public documentation
+repository is not a grant to use Framebit's private application source code.
+
+5. Third-party software and mandatory rights
+Third-party software, fonts, icons, runtimes and other separately licensed
+materials are not licensed under Framebit's proprietary restrictions. Their
+respective copyright holders retain their rights. Their licenses control use,
+copying, modification, redistribution and source availability for those materials.
+Where a third-party license permits sale or redistribution of its component,
+this Framebit license does not restrict that permission.
+
+In particular, FFmpeg and its included libraries retain their applicable free
+software licenses, including GPL/LGPL terms where applicable. See
+THIRD_PARTY_NOTICES.md and the license/source materials for the exact build.
+No Framebit term overrides those licenses or any right that applicable law does
+not allow to be waived or restricted, including applicable interoperability,
+inspection or reverse-engineering rights.
+
+6. Warranty and liability
+To the extent permitted by applicable law, Framebit is provided "AS IS" and
+"AS AVAILABLE", without warranties of any kind, express or implied, including
+merchantability, fitness for a particular purpose and noninfringement. There is
+no guarantee of uninterrupted recording, preservation of unsaved buffer history,
+or compatibility with every system or game.
+
+To the extent permitted by applicable law, Liximize is not liable for damages
+arising from use of, or inability to use, Framebit, including loss of recordings,
+data or profits. Nothing excludes liability or protections that applicable law
+does not permit to be excluded.
+
+7. Reserved rights and permission requests
+All rights not expressly granted remain reserved. Permission requests may be
+directed to the official maintainer through https://github.com/Liximize/Framebit.
+This license grants permissions only for materials to which it applies; it does
+not replace separate third-party terms or retroactively change prior agreements.
