@@ -1,46 +1,80 @@
-<p align="center"><img src="assets/framebit-mark.svg" width="88" height="88" alt="Framebit"></p>
+<p align="center"><img src="assets/banner.svg" alt="Framebit — every bit of the moment" width="100%"></p>
 
-# Framebit
+<p align="center">
+  <a href="https://github.com/Liximize/Framebit/releases/latest"><img alt="Download" src="https://img.shields.io/badge/download-latest%20release-ffe45e?style=flat-square&labelColor=111111"></a>
+  <img alt="Windows" src="https://img.shields.io/badge/windows-10%20%2F%2011-74baff?style=flat-square&labelColor=111111">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.3-c6a0ff?style=flat-square&labelColor=111111">
+  <img alt="Free to use" src="https://img.shields.io/badge/licence-free%20to%20use-83e9ad?style=flat-square&labelColor=111111">
+</p>
 
-**Every bit of the moment.**
+<p align="center">
+  A free Windows recorder for the moments you almost missed.<br>
+  Keep a replay buffer running, save the last minute, and edit it before you post it.
+</p>
 
-A free Windows desktop recorder for saving the moments you almost missed. Keep a replay buffer running, save recent footage, take screenshots and finish your clips in a pixel-inspired editor.
+---
 
-[Download a preview](https://github.com/Liximize/Framebit/releases) · [Getting started](docs/GETTING-STARTED.md) · [Report a bug](https://github.com/Liximize/Framebit/issues/new/choose)
+## Download
 
-## Capture, keep, create
+| | |
+|---|---|
+| **Installer** | [Framebit setup](https://github.com/Liximize/Framebit/releases/latest) — recommended. Installs to Program Files, adds Start menu and desktop shortcuts, registers an uninstaller. |
+| **Portable** | The `-portable` zip from the same release. Unzip one folder, run `Framebit.exe`. Nothing is installed. |
 
-- **Instant replays:** choose 30 seconds, 1 minute, 2 minutes, 5 minutes or 10 minutes.
-- **Screen recording:** capture your displayed desktop; game detection organizes clips and classifies audio.
-- **Audio controls:** separate game, microphone and other audio when captured by Framebit.
-- **A tidy library:** game folders, game filters, favorites, screenshots and a finished-clips filter.
-- **A built-in editor:** trim, split, remove segments and adjust audio. Finish editing to save a separate edited clip and retain the original.
-- **Make it yours:** accent colors, configurable hotkeys, startup options and recording from the system tray.
-- **In-app updates:** check, download and restart to install a verified update from the official release feed.
+Windows 10 (1903) or newer, 64-bit. The Microsoft Edge WebView2 Runtime and the Visual C++ 2015–2022 Redistributable are required; both ship inside the setup, and the portable zip carries their installers in `Prerequisites`.
 
-Imported videos can be opened in the editor; available audio controls depend on the tracks in the file.
+## What it does
 
-## Get started
+**Save what just happened.** A rolling buffer keeps the last 30 seconds to 10 minutes in memory, so when something good happens you press a hotkey and it is already on disk.
 
-1. Download the **setup EXE** from [Releases](https://github.com/Liximize/Framebit/releases). GitHub's automatic “Source code” archives contain this public documentation, not the application.
-2. Run the installer and choose an installation folder. It may install Microsoft's WebView2 and C++ runtime prerequisites.
-3. Open Framebit, review your capture/audio settings and hotkeys, then start the replay buffer.
-4. Save a replay or screenshot when something is worth keeping.
+**Three audio tracks, if your setup has them.** Game, microphone and everything else are captured separately, so you can mute your friends, boost yourself, or drop the music in the editor.
 
-Current testing targets **Windows 11, 64-bit**. Recording settings include 720p, 1080p and 1440p; 30, 60 and 120 FPS; and low, medium and high quality. Actual performance depends on your hardware and selected settings. Internet access is needed for downloads, runtime installation when required and update checks.
+**An editor that stays out of the way.** Trim, split, delete segments, change speed, and mix the tracks with real faders and level meters. Export a copy as a Finished clip and keep the original untouched.
 
-## Preview status
+**A library, not a folder.** Clips are grouped by game, favourites and screenshots, with a seven-day Trash for the ones you delete by accident.
 
-Framebit is still in preview. Replay-buffer stability improvements are undergoing testing; please report interruptions with your version and relevant, redacted logs. YouTube publishing is not yet configured for general availability.
+**Optional YouTube.** Connect your channel, upload an edited clip, pick a local thumbnail, add it to a playlist. Entirely optional; nothing is uploaded without you starting it.
 
-See [Troubleshooting](docs/TROUBLESHOOTING.md) for recording, audio and update help.
+**Yours.** Accent colours, custom hotkeys, start with Windows, record from the tray, English and Arabic.
 
-## Free to use; rights reserved
+## Install
 
-Framebit's own application code and original branding are proprietary. You may use official builds for free, including to create monetized videos. These terms do not grant permission to sell, rebrand or redistribute Framebit itself. Share the official download link instead. Your recordings remain yours, subject to any rights in the content you capture.
+1. Download `Framebit-1.0.3-preview-setup.exe` from [Releases](https://github.com/Liximize/Framebit/releases).
+2. Run it. It installs for all users and asks for permission once.
+3. Framebit starts and lives in the system tray. Right-click the tray icon for the menu.
 
-Read the [license](LICENSE.txt). Third-party components retain their own licenses and permissions; see [third-party notices](THIRD_PARTY_NOTICES.md), including the separate FFmpeg license and source requirements.
+Closing the window sends Framebit to the tray — use **Exit** there to quit it properly.
 
-This public repository hosts documentation, issue reports and release downloads. Framebit's development source is maintained privately.
+## Where your files go
 
-Created by [Liximize](https://github.com/Liximize).
+| | |
+|---|---|
+| Clips | `Videos\Framebit` |
+| Screenshots | `Pictures\Framebit\Screenshots` |
+| Settings | Your Windows user profile |
+
+Setup and uninstall never touch recordings, screenshots or settings. Changing the folders is a setting, not a reinstall.
+
+## Requirements
+
+- Windows 10 build 1903 or newer, or Windows 11, 64-bit.
+- Microsoft Edge WebView2 Runtime (present on most Windows 11 PCs).
+- Microsoft Visual C++ 2015–2022 Redistributable (x64).
+- Hardware encoding works best with a current GPU driver; software encoding works everywhere.
+
+Windows N editions may need the Media Feature Pack before audio capture works.
+
+## Help
+
+- [Getting started](docs/GETTING-STARTED.md)
+- [Troubleshooting](docs/TROUBLESHOOTING.md)
+- [Report a bug](https://github.com/Liximize/Framebit/issues/new/choose)
+- [Privacy](docs/privacy.html) — what stays on your PC, and what leaves it
+
+## Licence
+
+Framebit is free to use, including for monetised recordings. The application, its source and its branding remain the property of the author. Third-party components keep their own licences and are listed in `THIRD_PARTY_NOTICES.md` and in the `licenses` folder of every download.
+
+## Credits
+
+Built with .NET, WebView2, NAudio, ScreenRecorderLib and FFmpeg. The pixel icon set is Pixelarticons; the wordmark and interface use Pixelify Sans and Noto Kufi Arabic. Full texts ship with the app.

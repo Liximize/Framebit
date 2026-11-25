@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Framebit - every bit of the moment">
+  <rect width="1200" height="260" fill="#000000"/>
+  <g transform="translate(84 66) scale(5.2)">
+    <g fill="#c6a0ff">
+      <rect x="4" y="2" width="9" height="3"/>
+      <rect x="9" y="5" width="4" height="1"/>
+      <rect x="2" y="5" width="7" height="4"/>
+    </g>
+    <g fill="#74baff" transform="rotate(90 12 12)">
+      <rect x="4" y="2" width="9" height="3"/>
+      <rect x="9" y="5" width="4" height="1"/>
+      <rect x="2" y="5" width="7" height="4"/>
+    </g>
+    <g fill="#ffe45e" transform="rotate(180 12 12)">
+      <rect x="4" y="2" width="9" height="3"/>
+      <rect x="9" y="5" width="4" height="1"/>
+      <rect x="2" y="5" width="7" height="4"/>
+    </g>
+    <g fill="#83e9ad" transform="rotate(270 12 12)">
+      <rect x="4" y="2" width="9" height="3"/>
+      <rect x="9" y="5" width="4" height="1"/>
+      <rect x="2" y="5" width="7" height="4"/>
+    </g>
+  </g>
+  <text x="264" y="146" fill="#f3f2e9" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="1">FRAMEBIT</text>
+  <text x="266" y="184" fill="#8f8f96" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="6">EVERY BIT OF THE MOMENT.</text>
+  <g>
+    <rect x="0" y="252" width="300" height="8" fill="#c6a0ff"/>
+    <rect x="300" y="252" width="300" height="8" fill="#74baff"/>
+    <rect x="600" y="252" width="300" height="8" fill="#ffe45e"/>
+    <rect x="900" y="252" width="300" height="8" fill="#83e9ad"/>
+  </g>
+</svg>
