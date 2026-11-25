@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="Framebit — every bit of the moment" width="100%"></p>
+<p align="center"><img src="assets/banner.png" alt="Framebit — every bit of the moment" width="100%"></p>
 
 <p align="center">
   <a href="https://github.com/Liximize/Framebit/releases/latest"><img alt="Download" src="https://img.shields.io/badge/download-latest%20release-ffe45e?style=flat-square&labelColor=111111"></a>
