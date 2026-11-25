@@ -16,10 +16,10 @@
 
 ## Download
 
-| | |
+| Edition | What it is |
 |---|---|
 | **Installer** | [Framebit setup](https://github.com/Liximize/Framebit/releases/latest) — recommended. Installs to Program Files, adds Start menu and desktop shortcuts, registers an uninstaller. |
-| **Portable** | The `-portable` zip from the same release. Unzip one folder, run `Framebit.exe`. Nothing is installed. |
+| **Portable** | The portable zip from the same release. Unzip one folder, run `Framebit.exe`. Nothing is installed. |
 
 Windows 10 (1903) or newer, 64-bit. The Microsoft Edge WebView2 Runtime and the Visual C++ 2015–2022 Redistributable are required; both ship inside the setup, and the portable zip carries their installers in `Prerequisites`.
 
@@ -47,7 +47,7 @@ Closing the window sends Framebit to the tray — use **Exit** there to quit it 
 
 ## Where your files go
 
-| | |
+| What | Where |
 |---|---|
 | Clips | `Videos\Framebit` |
 | Screenshots | `Pictures\Framebit\Screenshots` |
