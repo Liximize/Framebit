@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/Liximize/Framebit/releases/latest"><img alt="Download" src="https://img.shields.io/badge/download-latest%20release-ffe45e?style=flat-square&labelColor=111111"></a>
   <img alt="Windows" src="https://img.shields.io/badge/windows-10%20%2F%2011-74baff?style=flat-square&labelColor=111111">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.3-c6a0ff?style=flat-square&labelColor=111111">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.4-c6a0ff?style=flat-square&labelColor=111111">
   <img alt="Free to use" src="https://img.shields.io/badge/licence-free%20to%20use-83e9ad?style=flat-square&labelColor=111111">
 </p>
 
@@ -39,7 +39,7 @@ Windows 10 (1903) or newer, 64-bit. The Microsoft Edge WebView2 Runtime and the 
 
 ## Install
 
-1. Download `Framebit-1.0.3-preview-setup.exe` from [Releases](https://github.com/Liximize/Framebit/releases).
+1. Download `Framebit-1.0.4-preview-setup.exe` from [Releases](https://github.com/Liximize/Framebit/releases).
 2. Run it. It installs for all users and asks for permission once.
 3. Framebit starts and lives in the system tray. Right-click the tray icon for the menu.
 
