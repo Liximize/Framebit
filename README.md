@@ -39,7 +39,7 @@ Windows 10 (1903) or newer, 64-bit. The Microsoft Edge WebView2 Runtime and the 
 
 ## Install
 
-1. Download `Framebit-1.0.4-preview-setup.exe` from [Releases](https://github.com/Liximize/Framebit/releases).
+1. Download `Framebit.exe` from [Releases](https://github.com/Liximize/Framebit/releases).
 2. Run it. It installs for all users and asks for permission once.
 3. Framebit starts and lives in the system tray. Right-click the tray icon for the menu.
 
